@@ -6,16 +6,13 @@ const form = document.getElementById('form')
 
 let formValido = false;
 
-function validaCampo(){
-    return nome
-}
 
 form.addEventListener('submit', function(e){
   e.preventDefault()
 
   const mensagemSucesso = `<span>Formulário válido</span>`
   const mensagemInvalido = `Formulário inválido`
-  formValido = AElement.value.length < BElement.value.length
+  formValido = parseInt(AElement.value.length) < parseInt(BElement.value.length)
   
   if (formValido){
     const containerMensagemSucesso = document.querySelector('.success-message')
