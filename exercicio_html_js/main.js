@@ -9,7 +9,6 @@ let formValido = false;
 
 form.addEventListener('submit', function(e){
   e.preventDefault()
-
   const mensagemSucesso = `<span>Formulário válido</span>`
   const mensagemInvalido = `Formulário inválido`
   formValido = parseInt(AElement.value.length) < parseInt(BElement.value.length)
