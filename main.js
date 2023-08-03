@@ -1,4 +1,4 @@
-const form = document.getElementById('form-atividade')
+const form = document.getElementById('form-contatos')
 
 let nome = []
 let telefone = []
