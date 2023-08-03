@@ -5,8 +5,6 @@ let telefone = []
 
 let linhas = ''
 
-
-
 form.addEventListener('submit', function (e) {
   e.preventDefault()
   adicionarLinha();
@@ -39,11 +37,8 @@ function adicionarLinha() {
 
   }
 
-
-
   inputNome.value = ''
   inputTelefone.value = ''
-
 
 }
 
@@ -52,4 +47,3 @@ function atualizarTabela() {
   corpoTabela.innerHTML = linhas
 
 }
-
